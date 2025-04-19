@@ -1,0 +1,6 @@
+@TS.API_HostAddress = http://localhost:5258
+
+GET {{TS.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

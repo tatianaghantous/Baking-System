@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>TS.Persistence</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TS.Common\TS.Common.csproj" />
+      <ProjectReference Include="..\TS.Domain\TS.Domain.csproj" />
+      <ProjectReference Include="..\TS.Persistence\TS.Persistence.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="LinqKit.Core" Version="1.2.5" />
+    </ItemGroup>
+
+</Project>

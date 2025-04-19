@@ -1,0 +1,6 @@
+@UAS.API_HostAddress = http://localhost:5019
+
+GET {{UAS.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
